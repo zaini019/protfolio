@@ -24,13 +24,13 @@ export const projects: Project[] = [
   },
 {
     id: "arrivy",
-    title: "Y2YSply",
+    title: "Intakely Ai",
     description:
       "Field service management platform for scheduling, dispatching, and tracking.",
     longDescription:
       "A comprehensive field service management platform that streamlines scheduling, dispatching, and real-time tracking of field crews. Built with a robust backend and responsive frontend to handle complex operational workflows.",
     stack: ["React.js", "Node.js", "Python (Flask)", "PostgreSQL" , "Google cloud computing"],
-    liveUrl: "https://www.arrivy.com/",
+    liveUrl: "https://intakely.app/",
     image: "/projects/arrivy.png",
     category: "SaaS",
   },
