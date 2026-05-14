@@ -245,12 +245,12 @@ export const projects: Project[] = [
   },
   {
     id: "arrivy",
-    title: "Arrivy",
+    title: "Y2YSply",
     description:
       "Field service management platform for scheduling, dispatching, and tracking.",
     longDescription:
       "A comprehensive field service management platform that streamlines scheduling, dispatching, and real-time tracking of field crews. Built with a robust backend and responsive frontend to handle complex operational workflows.",
-    stack: ["Vue.js", "Node.js", "Laravel", "PostgreSQL"],
+    stack: ["React.js", "Node.js", "Python (Flask)", "PostgreSQL" , "Google cloud computing"],
     liveUrl: "https://www.arrivy.com/",
     image: "/projects/arrivy.png",
     category: "SaaS",
@@ -267,17 +267,17 @@ export const projects: Project[] = [
     image: "/projects/blixtpay.png",
     category: "Fintech",
   },
-  {
-    id: "arrivy-crm",
-    title: "Arrivy CRM Integrations",
-    description:
-      "60+ third-party CRM integrations including Zoho, HubSpot, Salesforce, and Zapier.",
-    longDescription:
-      "Led the integration of 60+ third-party CRMs and services with the Arrivy platform. Connected popular tools including Zoho, Zapier, HubSpot, Salesforce, Mail Parser, GCP, Google Calendar, Calendly, and many more. Built robust API connectors handling authentication, data sync, webhooks, and error recovery across all integrations.",
-    stack: ["Node.js", "REST APIs", "GraphQL", "GCP", "Third-party APIs"],
-    image: "/projects/arrivy-crm.png",
-    category: "Integrations",
-  },
+  // {
+  //   id: "arrivy-crm",
+  //   title: "Arrivy CRM Integrations",
+  //   description:
+  //     "60+ third-party CRM integrations including Zoho, HubSpot, Salesforce, and Zapier.",
+  //   longDescription:
+  //     "Led the integration of 60+ third-party CRMs and services with the Arrivy platform. Connected popular tools including Zoho, Zapier, HubSpot, Salesforce, Mail Parser, GCP, Google Calendar, Calendly, and many more. Built robust API connectors handling authentication, data sync, webhooks, and error recovery across all integrations.",
+  //   stack: ["Node.js", "REST APIs", "GraphQL", "GCP", "Third-party APIs"],
+  //   image: "/projects/arrivy-crm.png",
+  //   category: "Integrations",
+  // },
   {
     id: "scribemedix",
     title: "ScribeMedix AI Medical Scribing",
@@ -287,6 +287,7 @@ export const projects: Project[] = [
       "An AI-powered medical scribing tool integrated with Athenahealth that automatically records doctor-patient appointments via WebRTC, transcribes conversations using OpenAI Whisper at ~95% accuracy, and auto-fills EHR forms through intelligent API automation reducing physician interaction with the system by up to 70% while generating a structured clinical summary for every patient record.",
     stack: ["Python", "FastAPI", "OpenAI Whisper", "WebRTC", "LangChain"],
     image: "/projects/scribemedix.png",
+    liveUrl: "https://scribemedix.com/",
     category: "AI / Healthcare",
   },
   {

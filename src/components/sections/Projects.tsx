@@ -14,21 +14,21 @@ const projectStyles: Record<string, { icon: React.ReactNode; gradient: string; i
     gradient: "linear-gradient(135deg, rgba(6,182,212,0.12) 0%, rgba(59,130,246,0.08) 100%)",
     iconColor: "#06b6d4",
   },
-  arrivy: {
-    icon: <FiTruck size={72} />,
-    gradient: "linear-gradient(135deg, rgba(34,197,94,0.12) 0%, rgba(6,182,212,0.08) 100%)",
-    iconColor: "#22c55e",
-  },
+  // arrivy: {
+  //   icon: <FiTruck size={72} />,
+  //   gradient: "linear-gradient(135deg, rgba(34,197,94,0.12) 0%, rgba(6,182,212,0.08) 100%)",
+  //   iconColor: "#22c55e",
+  // },
   blixtpay: {
     icon: <HiOutlineCurrencyDollar size={72} />,
     gradient: "linear-gradient(135deg, rgba(234,179,8,0.12) 0%, rgba(249,115,22,0.08) 100%)",
     iconColor: "#eab308",
   },
-  "arrivy-crm": {
-    icon: <FiLink size={72} />,
-    gradient: "linear-gradient(135deg, rgba(139,92,246,0.12) 0%, rgba(59,130,246,0.08) 100%)",
-    iconColor: "#8b5cf6",
-  },
+  // "arrivy-crm": {
+  //   icon: <FiLink size={72} />,
+  //   gradient: "linear-gradient(135deg, rgba(139,92,246,0.12) 0%, rgba(59,130,246,0.08) 100%)",
+  //   iconColor: "#8b5cf6",
+  // },
   scribemedix: {
     icon: <FiActivity size={72} />,
     gradient: "linear-gradient(135deg, rgba(236,72,153,0.12) 0%, rgba(139,92,246,0.08) 100%)",
